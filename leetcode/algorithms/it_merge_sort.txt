@@ -1,0 +1,78 @@
+For p =  2 --------------------------------
+A loop ----
+This is a slice: [55, 25]
+Left side: [55]
+Right side: [25]
+Sorted_chunk: [25, 55]
+Loop result: [25, 55]
+A loop ----
+This is a slice: [10, 8]
+Left side: [10]
+Right side: [8]
+Sorted_chunk: [8, 10]
+Loop result: [8, 10, 25, 55]
+A loop ----
+This is a slice: [100, 400]
+Left side: [100]
+Right side: [400]
+Sorted_chunk: [100, 400]
+Loop result: [8, 10, 25, 55, 100, 400]
+A loop ----
+This is a slice: [15, 33]
+Left side: [15]
+Right side: [33]
+Sorted_chunk: [15, 33]
+Loop result: [8, 10, 15, 25, 33, 55, 100, 400]
+A loop ----
+This is a slice: [47, 89]
+Left side: [47]
+Right side: [89]
+Sorted_chunk: [47, 89]
+Loop result: [8, 10, 15, 25, 33, 47, 55, 89, 100, 400]
+For p =  4 --------------------------------
+A loop ----
+This is a slice: [8, 10, 15, 25]
+Left side: [8, 10]
+Right side: [15, 25]
+Sorted_chunk: [8, 10, 15, 25]
+Loop result: [8, 10, 15, 25]
+A loop ----
+This is a slice: [33, 47, 55, 89]
+Left side: [33, 47]
+Right side: [55, 89]
+Sorted_chunk: [33, 47, 55, 89]
+Loop result: [8, 10, 15, 25, 33, 47, 55, 89]
+A loop ----
+This is a slice: [100, 400]
+Left side: [100]
+Right side: [400]
+Sorted_chunk: [100, 400]
+Loop result: [8, 10, 15, 25, 33, 47, 55, 89, 100, 400]
+For p =  8 --------------------------------
+A loop ----
+This is a slice: [8, 10, 15, 25, 33, 47, 55, 89]
+Left side: [8, 10, 15, 25]
+Right side: [33, 47, 55, 89]
+Sorted_chunk: [8, 10, 15, 25, 33, 47, 55, 89]
+Loop result: [8, 10, 15, 25, 33, 47, 55, 89]
+A loop ----
+This is a slice: [100, 400]
+Left side: [100]
+Right side: [400]
+Sorted_chunk: [100, 400]
+Loop result: [8, 10, 15, 25, 33, 47, 55, 89, 100, 400]
+True
+For p =  2 --------------------------------
+A loop ----
+This is a slice: [10, 5]
+Left side: [10]
+Right side: [5]
+Sorted_chunk: [5, 10]
+Loop result: [5, 10]
+A loop ----
+This is a slice: [6]
+Left side: []
+Right side: [6]
+Sorted_chunk: [6]
+Loop result: [5, 6, 10]
+True
