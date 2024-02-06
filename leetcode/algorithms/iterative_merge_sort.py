@@ -41,8 +41,6 @@ def merge(left, right):
 
     return l
 
-    return sorted_list
-
 
 def merge_sort(input_list):
 
@@ -58,9 +56,9 @@ def merge_sort(input_list):
         # print("A loop ----")
         # if p == 2:
 
-        # slicing returns an array, and it seems you can slice out of bounds which python for convenience under the hood just replaces the out of bound index with len(n)
+        # slicing returns an array, and it seems you can slice out of bounds which python for convenience under the hood just replaces the out of bound index with len(n) # noqa
         # https://stackoverflow.com/questions/54613753/why-does-python-allow-out-of-range-slice-indexes-for-sequences
-        slice_of_elements = input_list[list_index : list_index + p]
+        slice_of_elements = input_list[list_index : list_index + p]  # noqa
 
         # else:
         #     slice_of_elements = next_input[list_index : list_index + p]
