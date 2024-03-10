@@ -126,6 +126,7 @@ class LinkedList:
             while position < index:
                 current = current.next_node
                 position += 1
+            return current
 
     def searchByIndex(self, index):
         """
